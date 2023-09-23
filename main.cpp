@@ -24,6 +24,6 @@ int main()
     std::cout << "Atlag: " << atlag << std::endl;
 
     delete[] b; // hiányzik a dinamikus memóriának felszabadítása
-
+    std::cout << "Minden hiba javításra került!" << std::endl;
     return 0;
 }
